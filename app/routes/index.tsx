@@ -1,32 +1,14 @@
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1 className=" text-4xl text-blue-200 text-center">Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
+    <div className="snap-y snap-mandatory h-screen overflow-scroll scroll-smooth overflow-y-auto scrollbar-hide snap-center">
+          <div className="h-screen snap-y snap-mandatory  bg-orange-200 scroll-smooth snap-center">
+            one
+          </div>
+          <div className="snap-y snap-mandatory h-screen  bg-indigo-500 scroll-smooth snap-center">
+            one
+          </div> <div className=" snap-y snap-mandatory h-screen  bg-indigo-900 scroll-smooth snap-center">
+            one
+          </div>
     </div>
   );
 }
